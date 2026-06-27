@@ -1,49 +1,61 @@
-# 🛒 E-Commerce Business Intelligence Dashboard
+<div align="center">
+  
+  <a href="https://github.com/HarshChoudhary2003/E-Commerce-Business-Intelligence-Dashboard">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=700&size=35&pause=1000&color=6366F1&center=true&vCenter=true&width=800&lines=Brazilian+E-Commerce+Dashboard;End-to-End+Business+Intelligence;Interactive+Data+Analytics" alt="Typing SVG" />
+  </a>
 
-![Executive Overview](Screenshots/Executive%20Overview.png)
+  <p align="center">
+    <strong>A world-class, premium minimalist Power BI dashboard analyzing 100,000+ real-world e-commerce orders.</strong>
+  </p>
 
-## 📌 Project Overview
-An end-to-end Power BI Business Intelligence Dashboard designed to analyze the performance of a Brazilian E-Commerce store. This project features a custom-built Star Schema data model, advanced DAX measures, and a highly accessible, premium minimalist "Neomorphic" UI design. 
+  <p align="center">
+    <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+    <img src="https://img.shields.io/badge/Data_Modeling-6366F1?style=for-the-badge&logo=databricks&logoColor=white" alt="Data Modeling" />
+    <img src="https://img.shields.io/badge/DAX-10B981?style=for-the-badge&logo=powerbi&logoColor=white" alt="DAX" />
+    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle Dataset" />
+  </p>
 
-The dashboard provides actionable insights into revenue, customer behavior, product performance, logistics, and seller analytics to drive strategic business decisions.
+</div>
 
-## 📊 Dashboard Previews
+---
 
-### Customer & Satisfaction Analytics
-![Customer Analytics](Screenshots/Customer%20Analytics.png)
-![Customer Satisfaction](Screenshots/Customer%20Satisfaction%20Analytics.png)
+## ⚡ Project Highlights
+This project features a **custom-built Star Schema data model**, advanced **DAX measures**, and a highly accessible, **premium minimalist "Neomorphic" UI design**. The dashboard transforms raw transactional data into actionable strategic insights.
 
-### Logistics, Product & Seller Performance
-![Logistics & Delivery](Screenshots/Logistics%20&%20Delivery%20Analytics.png)
-![Product Analytics](Screenshots/Product%20Analytics.png)
-![Seller Performance](Screenshots/Seller%20Performance%20Analytics.png)
+<br>
+
+<div align="center">
+  <img src="Screenshots/Executive%20Overview.png" alt="Executive Overview" width="800">
+  <br><br>
+  <img src="Screenshots/Customer%20Analytics.png" alt="Customer Analytics" width="800">
+</div>
+
+<br>
 
 ## 📂 Dataset Information
 
-**Dataset Name:** Brazilian E-Commerce Public Dataset by Olist  
-**Source:** Kaggle  
-**Dataset Link:** [Olist E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+The foundation of this dashboard is the **Brazilian E-Commerce Public Dataset by Olist**.
 
-### Description
-The dataset contains approximately 100,000 e-commerce orders placed on the Olist Store between 2016 and 2018. It includes customer information, order details, products, sellers, payments, reviews, and geolocation data. This dataset was used to perform end-to-end business intelligence analysis, build a star schema data model, create DAX measures, and develop interactive Power BI dashboards.
+- 🔗 **Source:** [Kaggle Olist Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+- 📦 **Volume:** ~100,000 orders (2016-2018)
+- 📊 **Scope:** Customers, orders, products, sellers, payments, geolocation, and reviews.
 
-### Dataset Tables Used:
-* `olist_customers_dataset.csv`
-* `olist_orders_dataset.csv`
-* `olist_order_items_dataset.csv`
-* `olist_order_payments_dataset.csv`
-* `olist_order_reviews_dataset.csv`
-* `olist_products_dataset.csv`
-* `olist_sellers_dataset.csv`
-* `product_category_name_translation.csv`
+*(Note: The raw `.csv` dataset files are ignored in this repository via `.gitignore` to keep the project lightweight, but can be downloaded from the Kaggle link above).*
 
-*(Note: Raw dataset files are ignored via `.gitignore` due to size limitations, but can be downloaded from the Kaggle link above).*
+## 🎨 Design System
+The dashboard leverages a custom JSON theme (`Theme/Color_Theme.json`) crafted for maximum readability and visual impact:
+* **Aesthetic:** Clean whitespace and soft drop shadows (Neomorphism).
+* **Palette:** Striking Indigo (`#6366F1`) KPIs against perfectly contrasted minimalist backgrounds.
+* **Focus:** Reduced cognitive load to highlight critical business metrics immediately.
 
-## 🎨 Custom Theme
-The dashboard utilizes a custom JSON theme (`Theme/Color_Theme.json`) featuring a **Premium Minimalist** aesthetic. It incorporates clean whitespace, soft drop shadows (neomorphism), and striking Indigo (`#6366F1`) KPIs with perfectly contrasted typography for maximum accessibility.
+## 🚀 Getting Started
+1. **Clone** this repository to your local machine.
+2. **Download** the raw CSV datasets from Kaggle and place them in the `Dataset/` folder.
+3. **Open** `Dashboard/Dashboard File.pbix` in **Power BI Desktop**.
+4. *(Optional)* Refresh the data source paths in Power Query to point to your local `Dataset/` folder if prompted.
 
-## 🚀 How to Use
-1. Clone this repository.
-2. Download the raw CSV datasets from Kaggle and place them in the `Dataset/` folder.
-3. Open `Dashboard/Dashboard File.pbix` in **Power BI Desktop**.
-4. If necessary, refresh the data source paths in Power Query to point to your local `Dataset/` folder.
+<br>
+
+<div align="center">
+  <i>Designed and developed by Harsh Choudhary</i>
+</div>
